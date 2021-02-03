@@ -1,0 +1,99 @@
+.componentBanner {
+    background: linear-gradient(to bottom, rgba(15, 19, 4, 0.746) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('https://res.cloudinary.com/urbanclap/image/upload/categories/category_v2/category_151adfe0.jpeg') no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    text-align: center;
+    height: 552px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* filter: brightness(0.7); */
+    /* linear */
+  }
+  .serviceHeading{
+    font-size: 48px !important;
+    line-height: 130px !important;
+    color: #fff !important;
+    margin: 0 !important;
+    font-weight: 500 !important; 
+    z-index: 3 !important;
+    position: relative !important  ;
+    text-shadow: 0 1px 8px rgba(0,0,0,.2);
+  }
+  .citySearch {
+    border-radius: 4px;
+    min-width: 220px;
+    margin-top: 0;
+    background-color: #fff;
+    box-shadow: 0 3px 9px 0 #dedede !important;
+    border: none;
+    display: inline-block;
+    text-align: left !important;
+    padding: 5px;
+  }
+
+
+ 
+  .cities {
+    display: inline;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1em ;
+    border: none;
+    font-size: 18px !important;
+  }
+  .serviceSearch {
+    display: flex !important;
+    border-radius: 4px;
+    min-width: 180px;
+    /* height: 43px; */
+    margin-top: 0;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 #dedede;
+    box-shadow: none;
+    border: none;
+    display: inline-block;
+    margin-left: 10px;
+  }
+    
+  .searchIcon {
+    font-size: 2em !important;
+    padding: 12px !important;
+    color: #686d76;
+    line-height: 1.15 !important  ;
+  }
+  
+  .searchText {
+    /* width:100px */
+    width: 23vw !important;
+    height: 50px;
+    margin-left: 16px;
+    padding: 15px !important;
+    border: none;
+    margin: 5px 10px !important;
+  }
+
+  .serviceBox{
+    width:60vw;
+    height: 400px;
+    position: relative;
+    background-color: #fff;
+    top: -60px;
+    margin: 0 auto!important;
+    box-shadow: 0 25px 25px 25px rgba(0,0,0,.08);
+    text-align: center;
+  }
+  
+  
+  .services{
+    display: inline-block;
+    padding: 30px;
+    cursor: pointer;
+  }

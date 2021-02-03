@@ -1,0 +1,26 @@
+.orderStatus{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border: 2px solid;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+
+.orderSuccess{
+    color:  green;
+    background-color:green
+}
+.orderCancelled{
+    color:  red;
+    background-color:red
+}
+.orderImage{
+    width: 72px !important;
+    height: 70px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;   
+}
+.orderCard {
+    width: 100% !important;
+}
